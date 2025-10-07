@@ -1,0 +1,38 @@
+:root {
+  --dark-purple: #24133B;
+  --dark-blue:#131b3b;
+  --orange: #E64D32;
+  --cyan: #6CE0BD;
+  --light-purple: #E4E0FA;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 50px;
+  color: var(--light-purple);
+  background-color: var(--dark-blue);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  margin-bottom: 0px;
+}
+
+#nav {
+  display: flex;
+  gap: 50px;
+  font-size: large;
+  color: var(--light-purple)
+}
+
+#projects,
+#about,
+#contact {
+  height: 800px;
+}
