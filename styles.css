@@ -4,6 +4,9 @@
   --orange: #E64D32;
   --cyan: #6CE0BD;
   --light-purple: #E4E0FA;
+
+  --yellow: rgb(192, 227, 142); 
+  --green: rgb(0, 128, 70);
 }
 
 html {
@@ -12,8 +15,8 @@ html {
 
 body {
   margin: 50px;
-  color: var(--light-purple);
-  background-color: var(--dark-blue);
+  color: var(--green);
+  background-color: var(--yellow);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
